@@ -9,11 +9,11 @@ h1{
 .color-add{
     color: red;
 }
-section{
+.flexible{
     display: flex;
 }
 .half-size{
-    width: 80%;
+    width: 110%;
     padding: 5%;
 }
 .half-size img{
