@@ -1,9 +1,40 @@
 body{
     font-family: 'PT Serif', serif;
+    margin: 0;
+    height: 100px;
 }
 h1{
     font-size: 50px;
 }
 .color-add{
     color: red;
+}
+section{
+    display: flex;
+}
+.half-size{
+    width: 80%;
+    padding: 5%;
+}
+.half-size img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 80, 45);
+    padding: 10px 40px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.adding{
+    background-image: url(nis.jpg);
+    background-repeat: no-repeat;
+}
+.new-add{
+    background-image: url(php06hF2s.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    display: flex;
 }
