@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size: 30px;
+}
 .color-add{
     color: red;
 }
@@ -13,7 +16,7 @@ h1{
     display: flex;
 }
 .half-size{
-    width: 110%;
+    width: 85%;
     padding: 5%;
 }
 .half-size img{
@@ -37,4 +40,14 @@ h1{
     background-size: 50%;
     background-position: right;
     display: flex;
+}
+.my-work{
+    margin-bottom: 150px;
+}
+.half-resize{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px rgb(92, 170, 204);
 }
