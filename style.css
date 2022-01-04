@@ -42,7 +42,13 @@ h3{
     display: flex;
 }
 .my-work{
-    margin-bottom: 150px;
+    padding-bottom: 150px;
+    background-image: url(ni2s.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+    
 }
 .half-resize{
     width: 40%;
@@ -50,4 +56,18 @@ h3{
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 40px rgb(92, 170, 204);
+    border-radius: 15px;
+}
+#boder-add{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 1;
+}
+#border-expe{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 55), rgb(19, 2, 110));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
